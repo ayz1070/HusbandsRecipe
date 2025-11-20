@@ -5,6 +5,8 @@ import androidx.compose.ui.graphics.Color
 // Light Mode Colors
 val PrimaryBlack = Color(0xFF000000)
 val OnPrimaryWhite = Color(0xFFFFFFFF)
+val HighlightBlue = Color(0xFF0084FF)
+val HighlightBlueVariant = Color(0xFF29A0FF)
 
 val SecondaryGray = Color(0xFF6B7280)
 val OnSecondaryWhite = Color(0xFFFFFFFF)

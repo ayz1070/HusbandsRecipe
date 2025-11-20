@@ -39,7 +39,10 @@ class MainActivity : ComponentActivity() {
                                 backStackEntry.arguments?.getString("recipeId") ?: return@composable
                         RecipeDetailScreen(
                                 recipeId = recipeId,
-                                onBackClick = { navController.popBackStack() }
+                                onBackClick = { navController.popBackStack() },
+                                onNavigateHome = {
+                                    navController.popBackStack("recipe_list", inclusive = false)
+                                }
                         )
                     }
                     composable("login") {
